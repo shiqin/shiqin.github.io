@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>shiqin | 那些那些</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="../../img/favicon-q.ico"/>
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="http://static.duoshuo.com/styles/embed.default.css?d6149e1c.css" type="text/css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="g-main-container">
+        <strong id="site-logo"><a href="/">shiqin的博客</a></strong>
+
+        <div id="site-nav">
+            <ul class="js-menu" class="clearfix">
+                
+                <li class="js-menu-title">
+                    
+                    <a href="javascript:;">日志</a>
+                    <ul>
+                        
+                        <li>
+                            <a href="/archives/2014">2014</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/archives/2015">2015</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li class="js-menu-title">
+                    
+                    <a href="javascript:;">JS</a>
+                    <ul>
+                        
+                        <li>
+                            <a href="/JS/JS">JS</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/JS/文章">文章</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li class="js-menu-title">
+                    
+                    <a href="javascript:;">友链</a>
+                    <ul>
+                        
+                        <li>
+                            <a href="/links/index.html">友链</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+            </ul>
+
+        </div>
+    </div>
+</header>
+
+
+
+
+  <article id="container">
+  <div class="grid-main">
+    <div class="col-sub">
+      <!-- Str sub-nav -->
+      <div id="sub-nav">
+        <ul>
+    
+    <li>
+        <a class="tit" href="javascript:;">2015年</a>
+        <ul>
+            
+            <li class="tit_list ">
+                <a href="/archives/2015/byebye.html"
+                   class="sidebar-link">跟任性说再见</a>
+            </li>
+            
+            <li class="tit_list ">
+                <a href="/archives/2015/Amumu.html"
+                   class="sidebar-link">再见，阿木木！</a>
+            </li>
+            
+        </ul>
+    </li>
+    
+</ul>
+
+      </div>
+    </div>
+    <!-- end sub-nav -->
+    <!-- Str col-main -->
+    <div class="col-main">
+      <div class="mod-box">
+        <div class="hd">
+          <h2>那些那些</h2>
+        </div>
+        <div class="page-entry bd">
+          <p>想送你回家的人，东南西北都顺路。<br>愿陪你吃饭的人，酸甜苦辣都爱吃。<br>想见你的人，24小时都有空。<br>想帮助你的人，再苦再难也会想尽一切办法帮你。<br>不是你给谁一瓶雪花，谁都能陪你勇闯天涯。<br>喜欢你的人，你怎么样都行；<br>不喜欢你的人，你怎么样都不行。<br>所以人活着没必要委屈自己去讨好任何人。<br>做人其实很简单。只要你把我当回事，你的事就是我的事。<br>如果你没把我当回事，你的事与我无关。</p>
+<p>好久没写日志，看了一段洒脱的话，有些感悟：人们都希望活出自己，真正能活出自己的人，好少，也很难！生活中的幸福来自于：开心与不开心的平衡，谁多一些，谁就更幸福！我总喜欢那些做事有思想的人，终其原因：自己太懒，太容易依赖，失去自我！</p>
+<p>做最真实的自己，快乐，幸福！<br>那些曾经的，让他当美好的回忆！<br>新的开始，新的人生继续！</p>
+
+        </div>
+        
+<section id="comment">
+  
+            <!-- Duoshuo Comment BEGIN -->
+            <div class="ds-thread" data-thread-key="那些那些"></div>
+            <script type="text/javascript">
+                var duoshuoQuery = {short_name:"shiqin"};
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';ds.async = true;
+                    ds.src = 'http://static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+            </script>
+            <!-- Duoshuo Comment END -->
+      
+  
+</section>
+
+
+      </div>
+    </div>
+    <!-- end col-main -->
+
+    <div id="footer"></div>
+
+  </div>
+</article>
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.js-menu li ul a').each(function (index, item) {
+            //console.log($(item).attr('href'), location.href);
+            if (location.href.indexOf($(item).attr('href')) > -1) {
+                $(item).parents('.js-menu-title').addClass('cur');
+            }
+        });
+
+        if( $('.js-menu-title:last li a').text() == '友链' && $('.js-menu-title:last').hasClass('cur')){
+          $('#comment').remove();
+          $('.col-sub').css('display','none');
+        }else{}
+
+    });
+</script>
+  <script type="text/javascript">
+
+</script>
+
+</body>
+</html>

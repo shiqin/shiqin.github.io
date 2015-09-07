@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>shiqin | 友情链接</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="../../img/favicon-q.ico"/>
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="http://static.duoshuo.com/styles/embed.default.css?d6149e1c.css" type="text/css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="g-main-container">
+        <strong id="site-logo"><a href="/">shiqin的博客</a></strong>
+
+        <div id="site-nav">
+            <ul class="js-menu" class="clearfix">
+                
+                <li class="js-menu-title">
+                    
+                    <a href="javascript:;">日志</a>
+                    <ul>
+                        
+                        <li>
+                            <a href="/archives/2014">2014</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/archives/2015">2015</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li class="js-menu-title">
+                    
+                    <a href="javascript:;">JS</a>
+                    <ul>
+                        
+                        <li>
+                            <a href="/JS/JS">JS</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/JS/文章">文章</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li class="js-menu-title">
+                    
+                    <a href="javascript:;">友链</a>
+                    <ul>
+                        
+                        <li>
+                            <a href="/links/index.html">友链</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+            </ul>
+
+        </div>
+    </div>
+</header>
+
+
+
+
+  <article id="container">
+  <div class="grid-main">
+    <div class="col-sub">
+      <!-- Str sub-nav -->
+      <div id="sub-nav">
+        <ul>
+    
+    <li>
+        <a class="tit" href="javascript:;">友链</a>
+        <ul>
+            
+        </ul>
+    </li>
+    
+</ul>
+
+      </div>
+    </div>
+    <!-- end sub-nav -->
+    <!-- Str col-main -->
+    <div class="col-main">
+      <div class="mod-box">
+        <div class="hd">
+          <h2>友情链接</h2>
+        </div>
+        <div class="page-entry bd">
+          <ul>
+<li><a href="http://willerce.com/" title="title willerce" target="_blank" rel="external">willerce</a> 一位有过很多共同回忆的人！</li>
+<li><a href="http://bigc.at/" title="title 大猫" target="_blank" rel="external">大猫</a> 目测最淫荡 &lt;- IDEA之神</li>
+<li><a href="http://www.ofcss.com/" title="title 二亮" target="_blank" rel="external">小李刀刀</a> 独立 自由 诚信 宽容 责任</li>
+<li><a href="http://www.smallni.com/" title="title 二亮" target="_blank" rel="external">二亮</a> 玩lol找Smallni，表嫌弃</li>
+<li><a href="http://ivane.me/" title="title Ivane" target="_blank" rel="external">Ivane</a> 这位听说比格很高</li>
+<li><a href="http://www.itmei.com/" title="title 妹子的世界" target="_blank" rel="external">妹子的世界</a> 宠辱不惊，闲看庭前花开花落，去留无意，漫随天外云卷云舒</li>
+<li><a href="http://dzqxuan.lofter.com/" title="title 圈圈" target="_blank" rel="external">圈圈</a> 泉-自动 归零心态，断臂自救</li>
+<li><a href="http://www.jnecw.com/" title="title 青梅煮酒" target="_blank" rel="external">青梅煮酒</a> 程序员，伪背包客，三大爱好美食旅行打代码</li>
+<li><a href="http://www.cocss.com/" title="title Shine" target="_blank" rel="external">Shine</a> 不能惹，时不时放大招</li>
+</ul>
+
+        </div>
+        
+<section id="comment">
+  
+            <!-- Duoshuo Comment BEGIN -->
+            <div class="ds-thread" data-thread-key="友情链接"></div>
+            <script type="text/javascript">
+                var duoshuoQuery = {short_name:"shiqin"};
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';ds.async = true;
+                    ds.src = 'http://static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+            </script>
+            <!-- Duoshuo Comment END -->
+      
+  
+</section>
+
+
+      </div>
+    </div>
+    <!-- end col-main -->
+
+    <div id="footer"></div>
+
+  </div>
+</article>
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.js-menu li ul a').each(function (index, item) {
+            //console.log($(item).attr('href'), location.href);
+            if (location.href.indexOf($(item).attr('href')) > -1) {
+                $(item).parents('.js-menu-title').addClass('cur');
+            }
+        });
+
+        if( $('.js-menu-title:last li a').text() == '友链' && $('.js-menu-title:last').hasClass('cur')){
+          $('#comment').remove();
+          $('.col-sub').css('display','none');
+        }else{}
+
+    });
+</script>
+  <script type="text/javascript">
+
+</script>
+
+</body>
+</html>
